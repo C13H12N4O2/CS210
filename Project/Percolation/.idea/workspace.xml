@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2e88801c-28a6-4151-9c64-3fd685fced3b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1diXZJTn4zjmCKGe3Rfj9mpQzKe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager" selected="Application.PercolationVisualizer">
+    <configuration name="Distance" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Distance" />
+      <module name="project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreatCircle" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GreatCircle" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Harmonic" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Harmonic" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InteractivePercolationVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InteractivePercolationVisualizer" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Percolation" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Percolation" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationStats" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationStats" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PercolationVisualizer" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PercolationVisualizer" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeCounter" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrimeCounter" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Rational" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Rational" />
+      <module name="project1" />
+      <option name="PROGRAM_PARAMETERS" value="$Prompt$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Transpose" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Transpose" />
+      <module name="project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Distance" />
+      <item itemvalue="Application.GreatCircle" />
+      <item itemvalue="Application.Harmonic" />
+      <item itemvalue="Application.InteractivePercolationVisualizer" />
+      <item itemvalue="Application.Percolation" />
+      <item itemvalue="Application.PercolationStats" />
+      <item itemvalue="Application.PercolationVisualizer" />
+      <item itemvalue="Application.PrimeCounter" />
+      <item itemvalue="Application.Rational" />
+      <item itemvalue="Application.Transpose" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2e88801c-28a6-4151-9c64-3fd685fced3b" name="Default Changelist" comment="" />
+      <created>1592908941654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592908941654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="535" y="169" width="578" height="766" key="#Distance" timestamp="1592920995047">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#Distance/0.30.1920.1050@0.30.1920.1050" timestamp="1592920995047" />
+    <state x="535" y="169" width="578" height="766" key="#GreatCircle" timestamp="1592916824204">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#GreatCircle/0.30.1920.1050@0.30.1920.1050" timestamp="1592916824204" />
+    <state x="535" y="169" width="578" height="766" key="#Harmonic" timestamp="1592921231839">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#Harmonic/0.30.1920.1050@0.30.1920.1050" timestamp="1592921231839" />
+    <state x="535" y="169" width="578" height="766" key="#InteractivePercolationVisualizer" timestamp="1592920174599">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#InteractivePercolationVisualizer/0.30.1920.1050@0.30.1920.1050" timestamp="1592920174599" />
+    <state x="535" y="169" width="578" height="766" key="#Percolation" timestamp="1592924649964">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#Percolation/0.30.1920.1050@0.30.1920.1050" timestamp="1592924649964" />
+    <state x="535" y="169" width="578" height="766" key="#PercolationStats" timestamp="1592924811138">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#PercolationStats/0.30.1920.1050@0.30.1920.1050" timestamp="1592924811138" />
+    <state x="535" y="169" width="578" height="766" key="#PercolationVisualizer" timestamp="1592920207304">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#PercolationVisualizer/0.30.1920.1050@0.30.1920.1050" timestamp="1592920207304" />
+    <state x="535" y="169" width="578" height="766" key="#PrimeCounter" timestamp="1592918667553">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#PrimeCounter/0.30.1920.1050@0.30.1920.1050" timestamp="1592918667553" />
+    <state x="312" y="157" width="1024" height="848" key="#Project_Structure" timestamp="1592947630016">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="312" y="157" width="1024" height="848" key="#Project_Structure/0.30.1920.1050@0.30.1920.1050" timestamp="1592947630016" />
+    <state x="535" y="169" width="578" height="766" key="#Rational" timestamp="1592921652525">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#Rational/0.30.1920.1050@0.30.1920.1050" timestamp="1592921652525" />
+    <state x="535" y="169" width="578" height="766" key="#Transpose" timestamp="1592921168850">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="535" y="169" width="578" height="766" key="#Transpose/0.30.1920.1050@0.30.1920.1050" timestamp="1592921168850" />
+    <state x="287" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596881190833">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="287" y="238" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1596881190833" />
+    <state x="519" y="296" width="610" height="515" key="FileChooserDialogImpl" timestamp="1592955903092">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="519" y="296" width="610" height="515" key="FileChooserDialogImpl/0.30.1920.1050@0.30.1920.1050" timestamp="1592955903092" />
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom" timestamp="1592941382183">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1592941382183" />
+    <state width="1354" height="260" key="GridCell.Tab.0.center" timestamp="1592941382182">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1592941382182" />
+    <state width="1354" height="260" key="GridCell.Tab.0.left" timestamp="1592941382181">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1592941382181" />
+    <state width="1354" height="260" key="GridCell.Tab.0.right" timestamp="1592941382182">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1354" height="260" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1592941382182" />
+    <state x="333" y="186" width="992" height="733" key="SettingsEditor" timestamp="1596881166171">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="333" y="186" width="992" height="733" key="SettingsEditor/0.30.1920.1050@0.30.1920.1050" timestamp="1596881166171" />
+  </component>
+</project>
