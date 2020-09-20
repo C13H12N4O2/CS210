@@ -12,18 +12,15 @@ public class Percolation {
     
     // Constructs an n x n percolation system, with all sites blocked.
     public Percolation(int n) {
-        perc = new boolean [n][n];
-        uf = new WeightedQuickUnionUF(n * n + 2);
-        openSites = 0;
-        N = n;
-        in = 0;
-        out = N * N + 1;
+        this.perc = new boolean[n][n];
+        this.uf = new WeightedQuickUnionUF(n * n + 2);
+        this.openSites = 0;
+        this.N = n;
+        this.in = 0;
+        this.out = N * N + 1;
         
-        for (int i = 0; i != N + 1; i++) {
+        for (int i = 0; i != N + 1; ++i)
             uf.union(encode(in, i), in);
-            uf.union(encode(N - 1, i), out);
-        }
-        
     }
 
     // Opens site (i, j) if it is not already open.
@@ -50,7 +47,7 @@ public class Percolation {
 
     // Returns true if site (i, j) is full, and false otherwise.
     public boolean isFull(int i, int j) {
-        if (percolates())
+        if (perc[i][j] && uf.connected(encode(i, j), in))
             return true;
         return false;
     }
@@ -62,6 +59,9 @@ public class Percolation {
 
     // Returns true if this system percolates, and false otherwise.
     public boolean percolates() {
+        for (int i = 0; i != N; ++i)
+            if (uf.connected(in, encode(N - 1, i)))
+                uf.union(encode(N - 1, i), out);
         return uf.connected(in, out);
     }
 

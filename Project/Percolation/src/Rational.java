@@ -21,19 +21,16 @@ public class Rational {
     // Returns the sum of this rational number and other.
     public Rational add(Rational other) {
         // Sum of rationals a/b and c/d is the rational (ad + bc) / bd.
-        other.x = this.x * other.y + this.y * other.x;
-        other.y *= this.y;
-        
-        return other;
+        long num = this.x * other.y + this.y * other.x;
+        long den = this.y * other.y;
+        long g = gcd(num, den);
+        return new Rational(num / g, den / g);
     }
 
     // Returns the product of this rational number and other.
     public Rational multiply(Rational other) {
         // Product of rationals a/b and c/d is the rational ac / bd.
-        other.x *= this.x;
-        other.y *= this.y;
-        
-        return other;
+        return new Rational(this.x * other.x, this.y * other.y);
     }
 
     // Returns true if this rational number is equal to other, and false otherwise.
@@ -49,7 +46,7 @@ public class Rational {
         }
 
         // Rationals a/b and c/d are equal iff a == c and b == d.
-        if (this.x == this.y) {
+        if (this == other) {
             return true;
         } return false;
     }

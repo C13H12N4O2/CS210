@@ -3,31 +3,43 @@ import stdlib.StdRandom;
 import stdlib.StdStats;
 
 public class PercolationStats {
-    ...
+    double[] list;
+    int M;
 
     // Performs m independent experiments on an n x n percolation system.
     public PercolationStats(int n, int m) {
-        ...
+        list = new double[m];
+        M = m;
+        
+        for (int i = 0; i != m; ++i) {
+            Percolation PF = new Percolation(n);
+            while (!PF.percolates()) {
+                int a = StdRandom.uniform(0, PF.N),
+                    b = StdRandom.uniform(0, PF.N);
+                if(!PF.isOpen(a, b))
+                    PF.open(a, b);
+            } list[i] = (double) PF.openSites / Math.pow(n, 2);
+        }
     }
 
     // Returns sample mean of percolation threshold.
     public double mean() {
-        ...
+        return StdStats.mean(list);
     }
 
     // Returns sample standard deviation of percolation threshold.
     public double stddev() {
-        ...
+        return StdStats.stddev(list);
     }
 
     // Returns low endpoint of the 95% confidence interval.
     public double confidenceLow() {
-        ...
+        return mean() - 1.96 * stddev() / Math.sqrt(M);
     }
 
     // Returns high endpoint of the 95% confidence interval.
     public double confidenceHigh() {
-        ...
+        return mean() + 1.96 * stddev() / Math.sqrt(M);
     }
 
     // Unit tests the data type. [DO NOT EDIT]
