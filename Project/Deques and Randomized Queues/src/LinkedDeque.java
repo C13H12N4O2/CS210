@@ -7,75 +7,103 @@ import stdlib.StdRandom;
 // A data type to represent a double-ended queue (aka deque), implemented using a doubly-linked
 // list as the underlying data structure.
 public class LinkedDeque<Item> implements Iterable<Item> {
-    ...
+    private Node head, tail;
+    private int size = 0;
 
     // Constructs an empty deque.
     public LinkedDeque() {
-        ...
+        head = new Node(null);
+        tail = new Node(null);
+        head.next = tail;
+        tail.prev = head;
     }
 
     // Returns true if this deque is empty, and false otherwise.
     public boolean isEmpty() {
-        ...
+        return head.next == tail && tail.prev == head;
     }
 
     // Returns the number of items in this deque.
     public int size() {
-        ...
+        return size;
     }
 
     // Adds item to the front of this deque.
     public void addFirst(Item item) {
-        ...
+        Node node = new Node(item);
+        node.next = head.next;
+        node.prev = head;
+        head.next.prev = node;
+        head.next = node;
+        ++size;
     }
 
     // Adds item to the back of this deque.
     public void addLast(Item item) {
-        ...
+        Node node = new Node(item);
+        node.next = tail;
+        node.prev = tail.prev;
+        tail.prev.next = node;
+        tail.prev = node;
+        ++size;
     }
 
     // Returns the item at the front of this deque.
     public Item peekFirst() {
-        ...
+        return head.item;
     }
 
     // Removes and returns the item at the front of this deque.
     public Item removeFirst() {
-        ...
+        Node node = head.next;
+        Item item = node.item;
+        head.next = node.next;
+        node.next.prev = head;
+        node = null;
+        --size;
+        return item;
     }
 
     // Returns the item at the back of this deque.
     public Item peekLast() {
-        ...
+        return tail.prev.item;
     }
 
     // Removes and returns the item at the back of this deque.
     public Item removeLast() {
-        ...
+        Node node = tail.prev;
+        Item item = node.item;
+        tail.prev = node.prev;
+        node.prev.next = tail;
+        node = null;
+        --size;
+        return item;
     }
 
     // Returns an iterator to iterate over the items in this deque from front to back.
     public Iterator<Item> iterator() {
-        return new LinkedDeque<Item>();
+        return new DequeIterator();
     }
 
     // A deque iterator.
     private class DequeIterator implements Iterator<Item> {
-        ...
+        private Node cur;
 
         // Constructs an iterator.
         public DequeIterator() {
-            ...
+            cur = head.next;
         }
 
         // Returns true if there are more items to iterate, and false otherwise.
         public boolean hasNext() {
-            ...
+            return cur != tail;
         }
 
         // Returns the next item.
         public Item next() {
-            ...
+            Item item = cur.item;
+            cur = cur.next;
+            return item;
         }
 
         // Unsupported method.
@@ -90,6 +118,12 @@ public class LinkedDeque<Item> implements Iterable<Item> {
         private Item item;  // the item
         private Node next;  // the next node
         private Node prev;  // the previous node
+        
+        public Node(Item item) {
+            this.item = item;
+            this.next = null;
+            this.prev = null;
+        }
     }
 
     // Unit tests the data type. [DO NOT EDIT]
